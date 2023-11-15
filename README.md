@@ -44,9 +44,13 @@ I have used three update functions as part of the analysis :
 I have also done a basic analysis of a basic Temporal Difference Learning Algorithm called Markov Reward or TD[0] process. In this analysis, I have used the following model for
 my project where the leftmost and rightmost states are terminal states, and only the rightmost state has a reward of 1, the rest have a reward of 0. The aim is to see how the model estimates the average
 reward of each state which is the expected reward from that state.
+
+
 ![image](https://github.com/shaun-shock/Reinforcement-Learning/assets/93643578/edaa440b-21a3-4750-88b6-b2446903d358)
 
 The analysis has been done for various number of episodes( 0, 1 , 10 and 100). The findings have been shown in the report. The actual rewards for each state are as follows (from left to right) :
+
+
 ![image](https://github.com/shaun-shock/Reinforcement-Learning/assets/93643578/858e8595-db2d-4070-9ae2-7574d8c74f5e)
 
    The report shows all the above findings and the source code provided shows the code which was used to run the simulations.
